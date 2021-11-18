@@ -1,8 +1,8 @@
 from easy_pil import Editor, Canvas, load_image_async, Font
 from discord import File, Member
 
-async def create_card(level : int, xp : int, reqxp : int, member_name : str, member_avatar : str, color: str = "#FF56B2"):
-    bgc = await load_image_async(str("https://raw.githubusercontent.com/shahriyardx/discordpy-leveling-bot/master/leveling/assets/bg.png"))
+async def create_card(level : int, xp : int, reqxp : int, member_name : str, member_avatar : str, color: str = "violet"):
+    bgc = await load_image_async(str("https://raw.githubusercontent.com/mario1842/mariocard/main/bg.png"))
     background = Editor(bgc).resize((900, 300))
     profile = await load_image_async(str(member_avatar))
 
@@ -35,7 +35,7 @@ async def create_card(level : int, xp : int, reqxp : int, member_name : str, mem
     return file
 
     
-async def create_custom_card(level : int, xp : int, reqxp : int, member_name : str, member_avatar : str, color: str = "#FF56B2"):
+async def create_custom_card(level : int, xp : int, reqxp : int, member_name : str, member_avatar : str, color: str = "violet"):
     background = Editor("assets/bg.png").resize((900, 300))
     
     profile = await load_image_async(str(member_avatar))
