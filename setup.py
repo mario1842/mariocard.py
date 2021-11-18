@@ -10,7 +10,7 @@ classifiers = [
  
 setup(
   name='mariocard',
-  version='4.2.0',
+  version='1.0.0',
   description='This is simple maker for level card in discord bot.',
   long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
   url='',  
