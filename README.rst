@@ -88,6 +88,15 @@ Custom Card Example
    client.run("token")
 
 
+Generated Card
+~~~~~~~~~~~~~
+.. image:: https://raw.githubusercontent.com/mario1842/mariocard/main/created_card.png
+   :target: https://github.com/mario1842/mariocard/blob/main/created_card.png
+   :alt: Created card from example code
+
+
+
+
 Links
 ------
 
