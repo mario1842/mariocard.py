@@ -46,12 +46,12 @@ Default Card Example
    xp = 10
    
    #required xp for next level (from datebese or calculated)
-   requiredxp = 20
+   reqxp = 20
 
 
    @client.command()
    async def card(ctx):
-      img = await create_card(level, xp, requiredxp, ctx.message.author.name, ctx.message.author.avatar_url, "red")
+      img = await create_card(level, xp, reqxp, ctx.message.author.name, ctx.message.author.avatar_url, "red")
       await ctx.send(file=img)
 
    client.run("token")
@@ -77,12 +77,12 @@ Custom Card Example
    xp = 10
    
    #required xp for next level (from datebese or calculated)
-   requiredxp = 20
+   reqxp = 20
 
 
    @client.command()
    async def card(ctx):
-      img = await create_custom_card(level, xp, requiredxp, ctx.message.author.name, ctx.message.author.avatar_url, "red")
+      img = await create_custom_card(level, xp, reqxp, ctx.message.author.name, ctx.message.author.avatar_url, "red")
       await ctx.send(file=img)
 
    client.run("token")
