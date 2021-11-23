@@ -28,7 +28,7 @@ Installing
 
 
 Default Card Example
-~~~~~~~~~~~~~
+----------
 
 .. code:: py
 
@@ -57,7 +57,7 @@ Default Card Example
    client.run("token")
 
 Custom Card Example
-~~~~~~~~~~~~~
+----------
 
 **You must have create folder assets in your bot files and put there bg.png file.**
 
@@ -89,7 +89,7 @@ Custom Card Example
 
 
 Generated Card
-~~~~~~~~~~~~~
+----------
 .. image:: https://raw.githubusercontent.com/mario1842/mariocard/main/created_card.png
    :target: https://github.com/mario1842/mariocard/blob/main/created_card.png
    :alt: Created card from example code
