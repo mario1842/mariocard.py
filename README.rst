@@ -9,7 +9,7 @@ mariocard
    :alt: PyPI version info
    
    
-This is simple maker for level card in discord bot in discord.py or pycord.
+This is simple maker for cards in discord bot in discord.py or pycord.
 
 
 Installing
