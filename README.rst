@@ -66,7 +66,7 @@ Generated Level Card
 ~~~~~~~~~~~~~~~~~~~~
 .. image:: https://raw.githubusercontent.com/mario1842/mariocard.py/main/created_cards/levelcard.png
    :target: https://raw.githubusercontent.com/mario1842/mariocard.py/main/created_cards/levelcard.png
-   :alt: Created card from example code
+   :alt: Created card from example code.
 
 
 Welcome Card Example
@@ -102,7 +102,7 @@ Generated Welcome Card
 ~~~~~~~~~~~~~~~~~~~~~~
 .. image:: https://raw.githubusercontent.com/mario1842/mariocard.py/main/created_cards/welcomecard.png
    :target: https://raw.githubusercontent.com/mario1842/mariocard.py/main/created_cards/welcomecard.png
-   :alt: Created card from example code
+   :alt: Created card from example code.
 
 
 Links
