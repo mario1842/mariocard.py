@@ -78,7 +78,7 @@ class WelcomeCard():
             else:
                 profile = Editor(profile).resize((150, 150))
             background.paste(profile.image, (30, 75))
-    
+
         poppins = Font().poppins(size=40)
         poppins_small = Font().poppins(size=30)
         background.text((200, 35), str(f'    '+str(self.text)+' '), font=poppins, color="white")
@@ -135,7 +135,7 @@ class GoodbyeCard():
             else:
                 profile = Editor(profile).resize((150, 150))
             background.paste(profile.image, (30, 75))
-    
+
         poppins = Font().poppins(size=40)
         poppins_small = Font().poppins(size=30)
         background.text((200, 35), str(f'    '+str(self.text)+' '), font=poppins, color="white")
