@@ -107,7 +107,7 @@ Generated Welcome Card
 
 Links
 -----
-- `Github <https://mariocard.readthedocs.io/>`_
+- `Documentation <https://mariocard.readthedocs.io/>`_
 - `Github <https://github.com/mario1842/mariocard.py/>`_
 - `Youtube Channel <https://www.youtube.com/channel/UC4vtx0j0wcP6s4n7hCTUs7A>`_
 - `My Discord Server <https://discord.com/invite/uynSzaTAF3>`_
