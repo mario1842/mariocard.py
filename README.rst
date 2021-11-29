@@ -45,6 +45,9 @@ Level Card Example
        #setting avatar url for image
        levelcard.avatar = ctx.author.avatar_url
        
+       #setting background file path or link
+       levelcard.path = ""https://raw.githubusercontent.com/mario1842/mariocard/main/bg.png""
+       
        #setting member name
        levelcard.name = ctx.author
        
@@ -86,6 +89,9 @@ Welcome Card Example
        
        #setting avatar url for image
        levelcard.avatar = ctx.author.avatar_url
+       
+       #setting background file path or link
+       levelcard.path = ""https://raw.githubusercontent.com/mario1842/mariocard/main/bg.png""
        
        #setting member name
        levelcard.name = ctx.author
